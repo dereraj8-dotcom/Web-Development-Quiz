@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Web Dev Quiz: HTML, CSS & JavaScript</title>
+<link rel="stylesheet" href="style.css"></head><body><main>
+<h1>Web Dev Quiz</h1><p class="sub">HTML, CSS &amp; JavaScript MCQs. Pick a topic and test yourself.</p>
+<section id="start" class="card">
+<b>Choose topic</b><div class="chips" id="chips"></div>
+<button class="btn" id="go">Start quiz</button>
+</section>
+<section id="play" class="card hide">
+<div class="top"><span id="cat"></span><span id="cnt"></span></div><div class="bar"><i id="pb"></i></div>
+<p class="q" id="q"></p><div id="opts"></div><div class="exp hide" id="exp"></div>
+<button class="btn hide" id="next">Next</button>
+</section>
+<section id="end" class="card hide" style="text-align:center">
+<div>Your score</div><div class="big" id="sc"></div><p id="msg" class="sub"></p>
+<div class="row" style="justify-content:center"><button class="btn" id="again">Try again</button><button class="btn alt" id="home">Change topic</button></div>
+</section>
+</main>
+<script src="script.js"></script></body></html>
